@@ -1,7 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"log"
+
+	"github.com/gavril-s/dolzhnik-online/internal/config"
+)
 
 func main() {
-	fmt.Println("DOLZHNIK ONLINE")
+	env := config.ReadEnv()
+	db, err := config.ConnectToPostgers(env)
+	if err != nil {
+		log.Fatal(err)
+	}
 }

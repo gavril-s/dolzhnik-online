@@ -1,3 +1,10 @@
+### dolzhnik-online ###
+/builds
+/pgdata
+.env
+.vscode
+
+
 # Created by https://www.toptal.com/developers/gitignore/api/go,goland,visualstudiocode,macos,windows,linux,git,notepadpp
 # Edit at https://www.toptal.com/developers/gitignore?templates=go,goland,visualstudiocode,macos,windows,linux,git,notepadpp
 
